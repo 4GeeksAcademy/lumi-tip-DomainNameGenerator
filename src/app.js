@@ -1,11 +1,23 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+let pronoum = ["The", "Our", "Your"];
+let adj = ["Top", "Fast", "Deep"];
+let noun = ["Walker", "Padel", "Moose"];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+// function domainName() {
+//   let name = "";
+//   name += pronoum[Math.floor(Math.random() * pronoum.length)];
+//   name += adj[Math.floor(Math.random() * adj.length)];
+//   name += noun[Math.floor(Math.random() * noun.length)];
+//   return name;
+// }
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+function domainName() {
+  for (let i = 0; i <= 10; i++) {
+    let name = "";
+    name += pronoum[Math.floor(Math.random() * pronoum.length)];
+    name += adj[Math.floor(Math.random() * adj.length)];
+    name += noun[Math.floor(Math.random() * noun.length)];
+    console.log(name);
+  }
+}
+
+domainName();
