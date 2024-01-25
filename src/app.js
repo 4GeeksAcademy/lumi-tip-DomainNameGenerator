@@ -1,11 +1,11 @@
-// /* eslint-disable */
-// import "bootstrap";
-// import "./style.css";
+/* eslint-disable */
+import "bootstrap";
+import "./style.css";
 
-// import "./assets/img/rigo-baby.jpg";
-// import "./assets/img/4geeks.ico";
+import "./assets/img/rigo-baby.jpg";
+import "./assets/img/4geeks.ico";
 
-// window.onload = function() {
+window.onload = function() {
 let pronoum = ["The", "Our", "Your"];
 let adj = ["Top", "Fast", "Deep"];
 let noun = ["Peresiansises", "Capcom", "Waldo", "Cococom", "Ogre"];
@@ -33,7 +33,7 @@ function domainName() {
   });
 }
 domainName();
-// };
+};
 
 //-------------------------------------------------Solo con FOR LOOPS--------------------------------------------------------------
 
